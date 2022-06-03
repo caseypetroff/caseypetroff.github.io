@@ -1,4 +1,4 @@
-render_site(
+rmarkdown::render_site(
   input = ".",
   output_format = "all",
   envir = parent.frame(),

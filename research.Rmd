@@ -30,16 +30,18 @@ We argue that the gunpowder revolution in medieval Europe encouraged the amalgam
 
 ---
 
+[**Export Bans and Volatility Expectations in Grain Markets**](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4117628)
+
+with Michael K. Adjemian and and Michel A. Robe
+
+We show the importance of accounting for political risk to understand forward-looking price volatility in agricultural markets. We propose a theoretical model that shows uncertainty about the future world price of staple foods is positively related to the likelihood (and, counterintuitively, is further boosted by the actual imposition) of export bans in top producer countries. To test our model's predictions, we use option-implied volatilities (IVols) as a proxy for commodity market uncertainty. We construct a novel, daily dataset of major restrictions on grain and oilseed exports that were announced, adopted, or repealed in 2002-2019. We show that wheat and corn IVols are significantly higher on the day and the week when a ban is first imposed and also during the whole period when the ban is in effect. The effects of export bans are statistically and economically significant. The results hold even when we control for global macro-economic uncertainty and risk aversion (jointly proxied by the equity VIX) and for cash market tightness (including the state of grain inventories) prior to the ban.
+
+---
+
 **Home Front Experience and Women's Political Activism**
 
 with Elisabeth Perlman
 
 We leverage novel, hand-collected archival data on women's home front volunteering during the American Civil War to demonstrate the link between wartime and peacetime political capacity. Towns that had volunteer organizations for women in support of the Union war effort were more likely to have women-led political movements to agitate for temperance during the 1870s. This relationship is robust to adjusting for other measures of pre-war and wartime social and organizational capital, including men's enlistment in the Civil War. We argue that wartime mobilization can help women gain organizing experience that can be applied to politics even in contexts that do not involve women directly substituting for men's roles (as they did during the first and second World Wars) and in contexts that predate or preclude most roles for women in the public sphere.
 
----
 
-**Export Bans and Volatility Expectations in Grain Markets**
-
-with Michael K. Adjemian and and Michel A. Robe
-
-We document that forward-looking grain price uncertainty is boosted by export bans in key producer countries. We measure market uncertainty via option-implied volatilities (IVs). We hand-construct a detailed, daily dataset of all major export restrictions on wheat, corn, and soybeans between 2001 and 2016. We use this granular, country-level information to show that grain IVs are significantly higher on the day and week when a ban is first imposed and also during the whole period when the ban is in effect. Bans’ impacts are statistically and economically significant, with IVs up between 1 and 2 percentage points on the first day of the ban and up almost one half of 1 percentage point during the entire period when it is in effect. Each grain IV is sensitive to export restrictions for that grain and also for other grains. The impact of bans is weaker for soybeans than for corn or wheat. The results hold even when we control for global macroeconomic uncertainty and risk aversion (jointly captured by the VIX), the state of grain inventories (proxied by net costs of carry at the start of the ban), and possible Samuelson (1965) effects. Our results show the importance of taking political risk into account when analyzing forward-looking volatility in U.S. agricultural markets. 
