@@ -1,3 +1,5 @@
+library(rmarkdown)
+
 rmarkdown::render_site(
   input = ".",
   output_format = "all",
@@ -12,4 +14,4 @@ site_generator(input = ".", output_format = NULL)
 
 site_config(input = ".", encoding = "UTF-8")
 
-default_site_generator(input, output_format_filter = NULL, ...)
+#default_site_generator(input, output_format_filter = NULL)

@@ -12,17 +12,17 @@ output:
 
 ---
 
-**Making Policy Under Threat and Uncertainty: Evidence from the History of Public Health**
-
-How do policymakers select experts to advise them on technical subjects when they cannot themselves understand the evidence those experts use? This paper examines policymaker-expert relationship using evidence from the early history of public health. It models the fundamental problem of expert-policymaker relations: laypeople cannot directly evaluate the quality of experts’ predictions. Instead, policymakers, and the constituents to which they are accountable, must rely on imperfect signals – experts’ relevant prestige within the broader expert community, and their own ability to translate experts’ advice into outcomes. Even if the fundamental quality of experts’ technical evaluation is sound, bad policy outcomes can cause policymakers to incorrectly update their beliefs about expert quality, affecting their future selection of expert advisors.
-
----
-
-[**Conflict Technology as a Catalyst of State Formation**](https://www.dropbox.com/s/4wsi4cm08gb5zdj/walls-draft-winter-2021.pdf?dl=0)
+[**Conflict Technology as a Catalyst of State Formation**](https://www.dropbox.com/s/k4wxv3fd3hufs9c/walls-draft.pdf?dl=0)
 
 with Michael-David Mangini
 
-We argue that the gunpowder revolution in medieval Europe encouraged the amalgamation of smaller polities into larger centralized states. The shock to military technology made existing fortifications obsolete and dramatically raised the cost of defensive investments. Small polities lacked the fiscal capacity to make these investments, so they had either to ally or merge with others. Alliances created prospects of free-riding by interior cities on border cities. In contrast, unitary centralized states benefited from geographic and fiscal economies of scale, facilitating defensive investments at the border that protected the interior while limiting free-riding and resource misallocation. Using a new dataset on fortifications in over 6000 European cities, we find that states made defensive investments in areas of territorial contestation, closer to borders, and farther from raw building materials. These findings are consistent with the theory that large centralized states arose in part as a consequence of changes in military technology.
+We argue that the gunpowder revolution in medieval Europe encouraged the amalgamation of smaller polities into larger centralized states. The shock to military technology made existing fortifications obsolete and dramatically raised the cost of defensive investments. Small polities lacked the fiscal capacity to make these investments, so they had either to ally or merge with others. Alliances created prospects of free-riding by interior cities on border cities. In contrast, unitary centralized states benefited from geographic and fiscal economies of scale, facilitating defensive investments at the border that protected the interior while limiting free-riding and resource misallocation. Using a new dataset on fortifications in over 6,000 European cities, we find that states made defensive investments in areas of territorial contestation, closer to borders, and farther from raw building materials. These findings are consistent with the theory that large centralized states arose in part as a consequence of changes in military technology.
+
+---
+
+**Making Policy Under Threat and Uncertainty: Evidence from the History of Public Health**
+
+How do policymakers select experts to advise them on technical subjects when they cannot themselves understand the evidence those experts use? This paper examines policymaker-expert relationship using evidence from the early history of public health. It models the fundamental problem of expert-policymaker relations: laypeople cannot directly evaluate the quality of experts’ predictions. Instead, policymakers, and the constituents to which they are accountable, must rely on imperfect signals – experts’ relevant prestige within the broader expert community, and their own ability to translate experts’ advice into outcomes. Even if the fundamental quality of experts’ technical evaluation is sound, bad policy outcomes can cause policymakers to incorrectly update their beliefs about expert quality, affecting their future selection of expert advisors.
 
 ---
 
