@@ -8,7 +8,7 @@ output:
 
 ---
 
-# The Political Economy of Scientific and Technological Transformation
+# Historical Political Economy
 
 ---
 
@@ -20,9 +20,13 @@ We argue that the gunpowder revolution in medieval Europe encouraged the amalgam
 
 ---
 
-**Making Policy Under Threat and Uncertainty: Evidence from the History of Public Health**
+**Expert-Policymaker Interactions: Evidence from the History of Public Health**
 
-How do policymakers select experts to advise them on technical subjects when they cannot themselves understand the evidence those experts use? This paper examines policymaker-expert relationship using evidence from the early history of public health. It models the fundamental problem of expert-policymaker relations: laypeople cannot directly evaluate the quality of experts’ predictions. Instead, policymakers, and the constituents to which they are accountable, must rely on imperfect signals – experts’ relevant prestige within the broader expert community, and their own ability to translate experts’ advice into outcomes. Even if the fundamental quality of experts’ technical evaluation is sound, bad policy outcomes can cause policymakers to incorrectly update their beliefs about expert quality, affecting their future selection of expert advisors.
+---
+
+**Home Front Experience and Women's Political Activism**
+
+I leverage novel, hand-collected archival data on women's home front volunteering during the American Civil War to demonstrate the link between wartime and peacetime political capacity. Towns that had volunteer organizations for women in support of the Union war effort were more likely to have women-led political movements to agitate for temperance during the 1870s. This relationship is robust to adjusting for other measures of pre-war and wartime social and organizational capital, including men's enlistment in the Civil War. I argue that wartime mobilization can help women gain organizing experience that can be applied to politics even in contexts that do not involve women directly substituting for men's roles (as they did during the first and second World Wars), and in contexts that predate or preclude most roles for women in the public sphere.
 
 ---
 
@@ -36,12 +40,5 @@ with Michael K. Adjemian and and Michel A. Robe
 
 We show the importance of accounting for political risk to understand forward-looking price volatility in agricultural markets. We propose a theoretical model that shows uncertainty about the future world price of staple foods is positively related to the likelihood (and, counterintuitively, is further boosted by the actual imposition) of export bans in top producer countries. To test our model's predictions, we use option-implied volatilities (IVols) as a proxy for commodity market uncertainty. We construct a novel, daily dataset of major restrictions on grain and oilseed exports that were announced, adopted, or repealed in 2002-2019. We show that wheat and corn IVols are significantly higher on the day and the week when a ban is first imposed and also during the whole period when the ban is in effect. The effects of export bans are statistically and economically significant. The results hold even when we control for global macro-economic uncertainty and risk aversion (jointly proxied by the equity VIX) and for cash market tightness (including the state of grain inventories) prior to the ban.
 
----
-
-**Home Front Experience and Women's Political Activism**
-
-with Elisabeth Perlman
-
-We leverage novel, hand-collected archival data on women's home front volunteering during the American Civil War to demonstrate the link between wartime and peacetime political capacity. Towns that had volunteer organizations for women in support of the Union war effort were more likely to have women-led political movements to agitate for temperance during the 1870s. This relationship is robust to adjusting for other measures of pre-war and wartime social and organizational capital, including men's enlistment in the Civil War. We argue that wartime mobilization can help women gain organizing experience that can be applied to politics even in contexts that do not involve women directly substituting for men's roles (as they did during the first and second World Wars) and in contexts that predate or preclude most roles for women in the public sphere.
 
 

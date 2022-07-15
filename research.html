@@ -13,13 +13,22 @@
 
 <title>Research</title>
 
-<script src="site_libs/header-attrs-2.3/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
@@ -27,12 +36,16 @@
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 
-<style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
 <script type="text/javascript">
 if (window.hljs) {
   hljs.configure({languages: []});
@@ -45,32 +58,8 @@ if (window.hljs) {
 
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
+
+
 
 
 
@@ -80,10 +69,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -100,40 +85,16 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 45px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 50px;
-  margin-top: -50px;
-}
-.section h2 {
-  padding-top: 50px;
-  margin-top: -50px;
-}
-.section h3 {
-  padding-top: 50px;
-  margin-top: -50px;
-}
-.section h4 {
-  padding-top: 50px;
-  margin-top: -50px;
-}
-.section h5 {
-  padding-top: 50px;
-  margin-top: -50px;
-}
-.section h6 {
-  padding-top: 50px;
-  margin-top: -50px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -161,7 +122,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -173,7 +134,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -184,10 +145,23 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.parent().addClass('active');
+  menuAnchor.tab('show');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -199,7 +173,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -325,7 +298,7 @@ div.tocify {
 
 
 <!-- setup 3col/9col grid for toc_float and main content  -->
-<div class="row-fluid">
+<div class="row">
 <div class="col-xs-12 col-sm-4 col-md-3">
 <div id="TOC" class="tocify">
 </div>
@@ -339,7 +312,7 @@ div.tocify {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -362,7 +335,7 @@ div.tocify {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
@@ -372,27 +345,74 @@ div.tocify {
 
 
 <hr />
-<div id="the-political-economy-of-scientific-and-technological-transformation" class="section level1">
-<h1>The Political Economy of Scientific and Technological Transformation</h1>
+<div id="historical-political-economy" class="section level1">
+<h1>Historical Political Economy</h1>
 <hr />
-<p><a href="https://www.dropbox.com/s/2jixdddxn0lvnv3/walls-draft.pdf?dl=0"><strong>Conflict Technology as a Catalyst of State Formation</strong></a></p>
+<p><a
+href="https://www.dropbox.com/s/2jixdddxn0lvnv3/walls-draft.pdf?dl=0"><strong>Conflict
+Technology as a Catalyst of State Formation</strong></a></p>
 <p>with Michael-David Mangini</p>
-<p>We argue that the gunpowder revolution in medieval Europe encouraged the amalgamation of smaller polities into larger centralized states. The shock to military technology made existing fortifications obsolete and dramatically raised the cost of defensive investments. Small polities lacked the fiscal capacity to make these investments, so they had either to ally or merge with others. Alliances created prospects of free-riding by interior cities on border cities. In contrast, unitary centralized states benefited from geographic and fiscal economies of scale, facilitating defensive investments at the border that protected the interior while limiting free-riding and resource misallocation. Using a new dataset on fortifications in over 6,000 European cities, we find that states made defensive investments in areas of territorial contestation, closer to borders, and farther from raw building materials. These findings are consistent with the theory that large centralized states arose in part as a consequence of changes in military technology.</p>
+<p>We argue that the gunpowder revolution in medieval Europe encouraged
+the amalgamation of smaller polities into larger centralized states. The
+shock to military technology made existing fortifications obsolete and
+dramatically raised the cost of defensive investments. Small polities
+lacked the fiscal capacity to make these investments, so they had either
+to ally or merge with others. Alliances created prospects of free-riding
+by interior cities on border cities. In contrast, unitary centralized
+states benefited from geographic and fiscal economies of scale,
+facilitating defensive investments at the border that protected the
+interior while limiting free-riding and resource misallocation. Using a
+new dataset on fortifications in over 6,000 European cities, we find
+that states made defensive investments in areas of territorial
+contestation, closer to borders, and farther from raw building
+materials. These findings are consistent with the theory that large
+centralized states arose in part as a consequence of changes in military
+technology.</p>
 <hr />
-<p><strong>Making Policy Under Threat and Uncertainty: Evidence from the History of Public Health</strong></p>
-<p>How do policymakers select experts to advise them on technical subjects when they cannot themselves understand the evidence those experts use? This paper examines policymaker-expert relationship using evidence from the early history of public health. It models the fundamental problem of expert-policymaker relations: laypeople cannot directly evaluate the quality of experts’ predictions. Instead, policymakers, and the constituents to which they are accountable, must rely on imperfect signals – experts’ relevant prestige within the broader expert community, and their own ability to translate experts’ advice into outcomes. Even if the fundamental quality of experts’ technical evaluation is sound, bad policy outcomes can cause policymakers to incorrectly update their beliefs about expert quality, affecting their future selection of expert advisors.</p>
+<p><strong>Expert-Policymaker Interactions: Evidence from the History of
+Public Health</strong></p>
+<hr />
+<p><strong>Home Front Experience and Women’s Political
+Activism</strong></p>
+<p>I leverage novel, hand-collected archival data on women’s home front
+volunteering during the American Civil War to demonstrate the link
+between wartime and peacetime political capacity. Towns that had
+volunteer organizations for women in support of the Union war effort
+were more likely to have women-led political movements to agitate for
+temperance during the 1870s. This relationship is robust to adjusting
+for other measures of pre-war and wartime social and organizational
+capital, including men’s enlistment in the Civil War. I argue that
+wartime mobilization can help women gain organizing experience that can
+be applied to politics even in contexts that do not involve women
+directly substituting for men’s roles (as they did during the first and
+second World Wars), and in contexts that predate or preclude most roles
+for women in the public sphere.</p>
 <hr />
 </div>
 <div id="other-research-in-political-economy" class="section level1">
 <h1>Other Research in Political Economy</h1>
 <hr />
-<p><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4117628"><strong>Export Bans and Volatility Expectations in Grain Markets</strong></a></p>
+<p><a
+href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4117628"><strong>Export
+Bans and Volatility Expectations in Grain Markets</strong></a></p>
 <p>with Michael K. Adjemian and and Michel A. Robe</p>
-<p>We show the importance of accounting for political risk to understand forward-looking price volatility in agricultural markets. We propose a theoretical model that shows uncertainty about the future world price of staple foods is positively related to the likelihood (and, counterintuitively, is further boosted by the actual imposition) of export bans in top producer countries. To test our model’s predictions, we use option-implied volatilities (IVols) as a proxy for commodity market uncertainty. We construct a novel, daily dataset of major restrictions on grain and oilseed exports that were announced, adopted, or repealed in 2002-2019. We show that wheat and corn IVols are significantly higher on the day and the week when a ban is first imposed and also during the whole period when the ban is in effect. The effects of export bans are statistically and economically significant. The results hold even when we control for global macro-economic uncertainty and risk aversion (jointly proxied by the equity VIX) and for cash market tightness (including the state of grain inventories) prior to the ban.</p>
-<hr />
-<p><strong>Home Front Experience and Women’s Political Activism</strong></p>
-<p>with Elisabeth Perlman</p>
-<p>We leverage novel, hand-collected archival data on women’s home front volunteering during the American Civil War to demonstrate the link between wartime and peacetime political capacity. Towns that had volunteer organizations for women in support of the Union war effort were more likely to have women-led political movements to agitate for temperance during the 1870s. This relationship is robust to adjusting for other measures of pre-war and wartime social and organizational capital, including men’s enlistment in the Civil War. We argue that wartime mobilization can help women gain organizing experience that can be applied to politics even in contexts that do not involve women directly substituting for men’s roles (as they did during the first and second World Wars) and in contexts that predate or preclude most roles for women in the public sphere.</p>
+<p>We show the importance of accounting for political risk to understand
+forward-looking price volatility in agricultural markets. We propose a
+theoretical model that shows uncertainty about the future world price of
+staple foods is positively related to the likelihood (and,
+counterintuitively, is further boosted by the actual imposition) of
+export bans in top producer countries. To test our model’s predictions,
+we use option-implied volatilities (IVols) as a proxy for commodity
+market uncertainty. We construct a novel, daily dataset of major
+restrictions on grain and oilseed exports that were announced, adopted,
+or repealed in 2002-2019. We show that wheat and corn IVols are
+significantly higher on the day and the week when a ban is first imposed
+and also during the whole period when the ban is in effect. The effects
+of export bans are statistically and economically significant. The
+results hold even when we control for global macro-economic uncertainty
+and risk aversion (jointly proxied by the equity VIX) and for cash
+market tightness (including the state of grain inventories) prior to the
+ban.</p>
 </div>
 
 
@@ -406,7 +426,7 @@ div.tocify {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
@@ -424,7 +444,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>
@@ -433,6 +453,9 @@ $(document).ready(function () {
 
 <script>
 $(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
 
     // move toc-ignore selectors from section div to header
     $('div.section.toc-ignore')

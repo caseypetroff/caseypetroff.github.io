@@ -11,9 +11,7 @@ output:
 
 :::
 
-I am a Ph.D. candidate in the Political Economy and Government Program at Harvard University with a topical focus on political economy and economic history and a substantive focus on historical political economy. My research investigates how governments interact with new scientific discoveries and how expert communities respond to pressures by non-expert outsiders (such as policymakers) when making predictions and recommendations for public policy.
-
-My research is supported by a Stone PhD Scholarship in Inequality and Wealth Concentration and by the Institute for Quantitative Social Sciences. I can be reached at petroff[at]g.harvard.edu.
+I am a Ph.D. candidate in the Political Economy and Government Program at Harvard University with a topical focus on political economy and economic history and a substantive focus on historical political economy. My research is supported by a Stone PhD Scholarship in Inequality and Wealth Concentration. I can be reached at petroff[at]g.harvard.edu.
 
 ----
 
