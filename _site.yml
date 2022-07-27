@@ -1,7 +1,8 @@
-name: "R Markdown Websites Tutorial"
+name: "Casey Petroff"
 navbar:
-  title: "Home"
   left:
+    - text: "About Me"
+      href: index.html
     - text: "Research"
       href: research.html
     - text: "Teaching"

@@ -1,11 +1,8 @@
 ---
-title: "Research"
 output:
   html_document:
-    toc: true
+    toc: false
     toc_float: true
----
-
 ---
 
 # Historical Political Economy
@@ -14,15 +11,14 @@ output:
 
 [**Conflict Technology as a Catalyst of State Formation**](https://www.dropbox.com/s/2jixdddxn0lvnv3/walls-draft.pdf?dl=0)
 
-with Michael-David Mangini
+*with Michael-David Mangini*
 
 We argue that the gunpowder revolution in medieval Europe encouraged the amalgamation of smaller polities into larger centralized states. The shock to military technology made existing fortifications obsolete and dramatically raised the cost of defensive investments. Small polities lacked the fiscal capacity to make these investments, so they had either to ally or merge with others. Alliances created prospects of free-riding by interior cities on border cities. In contrast, unitary centralized states benefited from geographic and fiscal economies of scale, facilitating defensive investments at the border that protected the interior while limiting free-riding and resource misallocation. Using a new dataset on fortifications in over 6,000 European cities, we find that states made defensive investments in areas of territorial contestation, closer to borders, and farther from raw building materials. These findings are consistent with the theory that large centralized states arose in part as a consequence of changes in military technology.
 
----
 
 **Expert-Policymaker Interactions: Evidence from the History of Public Health**
 
----
+Scientific experts who work in policy-relevant fields may face dual incentives: on one hand, to make accurate predictions to increase their reputations in the eyes of their expert peers, and on the other hand, to promote their preferred policies. Using a large dataset of scientific writing, I examine this potential trade-off in the context of 19th-century cholera epidemics and the corresponding public health response. 
 
 **Home Front Experience and Women's Political Activism**
 
@@ -32,11 +28,9 @@ I leverage novel, hand-collected archival data on women's home front volunteerin
 
 # Other Research in Political Economy
 
----
-
 [**Export Bans and Volatility Expectations in Grain Markets**](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4117628)
 
-with Michael K. Adjemian and and Michel A. Robe
+*with Michael K. Adjemian and and Michel A. Robe*
 
 We show the importance of accounting for political risk to understand forward-looking price volatility in agricultural markets. We propose a theoretical model that shows uncertainty about the future world price of staple foods is positively related to the likelihood (and, counterintuitively, is further boosted by the actual imposition) of export bans in top producer countries. To test our model's predictions, we use option-implied volatilities (IVols) as a proxy for commodity market uncertainty. We construct a novel, daily dataset of major restrictions on grain and oilseed exports that were announced, adopted, or repealed in 2002-2019. We show that wheat and corn IVols are significantly higher on the day and the week when a ban is first imposed and also during the whole period when the ban is in effect. The effects of export bans are statistically and economically significant. The results hold even when we control for global macro-economic uncertainty and risk aversion (jointly proxied by the equity VIX) and for cash market tightness (including the state of grain inventories) prior to the ban.
 

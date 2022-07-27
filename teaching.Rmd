@@ -1,8 +1,7 @@
 ---
-title: "Teaching"
 output:
   html_document:
-    toc: true
+    toc: false
     toc_float: true
 ---
 
@@ -12,28 +11,25 @@ I wrote a guide to R and RMarkdown intended to be accessible to people with limi
 
 ---
 
-# Courses
+# Quantitative Teaching
 
----
-
-## [API-201: Quantitative Analysis & Empirical Methods (Harvard Kennedy School)](https://www.hks.harvard.edu/courses/quantitative-analysis-and-empirical-methods)
+[API-201: Quantitative Analysis & Empirical Methods (Harvard Kennedy School)](https://www.hks.harvard.edu/courses/quantitative-analysis-and-empirical-methods)
 
 Fall 2021. Introductory statistics and data science course for HKS Masters of Public Policy students with a focus on real-life public policy applications. I developed an introductory guide to R and Rmarkdown available [here](https://www.dropbox.com/sh/awup039cmngaqsb/AACutnJHvHOhDWvUNypbvpf5a?dl=0).
 
----
-
-## [GOV-2002/STAT-186: Quantitative Social Science Methods II/Methods of Causal Inference (Department of Government/Department of Statistics)](https://imai.fas.harvard.edu/teaching/index.html)
+[GOV-2002/STAT-186: Quantitative Social Science Methods II/Methods of Causal Inference (Department of Government/Department of Statistics)](https://imai.fas.harvard.edu/teaching/index.html)
 
 Fall 2020. Graduate-level course on theory and applications of causal inference for the social sciences.  
 
 ---
 
-## [GOV-1190: Politics of Europe (Department of Government)](https://scholar.harvard.edu/dziblatt/pages/collaborative-workconferences)
+# Qualitative Teaching
+
+[GOV-1190: Politics of Europe (Department of Government)](https://scholar.harvard.edu/dziblatt/pages/collaborative-workconferences)
 
 Spring 2018. Undergraduate course on political history of Europe from medieval era to the present, including the rise of the nation-state, revolutionary movements, democratization, and 21st-century populist political movements.
 
----
 
-## [GOV-1780: International Political Economy (Department of Government)](https://scholar.harvard.edu/jfrieden/classes/gov-1780-international-political-economy)
+[GOV-1780: International Political Economy (Department of Government)](https://scholar.harvard.edu/jfrieden/classes/gov-1780-international-political-economy)
 
 Fall 2017. Undergraduate course on IPE covering theories of political institutions, interest groups, trade, monetary economics, and more.

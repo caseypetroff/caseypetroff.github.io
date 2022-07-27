@@ -11,7 +11,7 @@
 
 
 
-<title>Teaching</title>
+<title>teaching.knit</title>
 
 <script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -29,9 +29,6 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
-<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
-<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
-<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -225,69 +222,6 @@ $(document).ready(function () {
 
 
 
-<style type="text/css">
-
-#TOC {
-  margin: 25px 0px 20px 0px;
-}
-@media (max-width: 768px) {
-#TOC {
-  position: relative;
-  width: 100%;
-}
-}
-
-@media print {
-.toc-content {
-  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
-  float: right;
-}
-}
-
-.toc-content {
-  padding-left: 30px;
-  padding-right: 40px;
-}
-
-div.main-container {
-  max-width: 1200px;
-}
-
-div.tocify {
-  width: 20%;
-  max-width: 260px;
-  max-height: 85%;
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  div.tocify {
-    width: 25%;
-  }
-}
-
-@media (max-width: 767px) {
-  div.tocify {
-    width: 100%;
-    max-width: none;
-  }
-}
-
-.tocify ul, .tocify li {
-  line-height: 20px;
-}
-
-.tocify-subheader .tocify-item {
-  font-size: 0.90em;
-}
-
-.tocify .list-group-item {
-  border-radius: 0px;
-}
-
-
-</style>
-
-
 
 </head>
 
@@ -295,16 +229,6 @@ div.tocify {
 
 
 <div class="container-fluid main-container">
-
-
-<!-- setup 3col/9col grid for toc_float and main content  -->
-<div class="row">
-<div class="col-xs-12 col-sm-4 col-md-3">
-<div id="TOC" class="tocify">
-</div>
-</div>
-
-<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -317,11 +241,14 @@ div.tocify {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">Home</a>
+      <a class="navbar-brand" href="index.html"></a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li>
+  <a href="index.html">About Me</a>
+</li>
+<li>
   <a href="research.html">Research</a>
 </li>
 <li>
@@ -339,73 +266,31 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">Teaching</h1>
 
 </div>
 
 
-<p>I have served as a teaching fellow/assistant for both quantitative
-and qualitative courses for undergraduate and graduate students at
-Harvard University.</p>
-<p>I wrote a guide to R and RMarkdown intended to be accessible to
-people with limited (or no) background in programming. This guide is
-available <a
-href="https://www.dropbox.com/sh/awup039cmngaqsb/AACutnJHvHOhDWvUNypbvpf5a?dl=0">here</a>.</p>
+<p>I have served as a teaching fellow/assistant for both quantitative and qualitative courses for undergraduate and graduate students at Harvard University.</p>
+<p>I wrote a guide to R and RMarkdown intended to be accessible to people with limited (or no) background in programming. This guide is available <a href="https://www.dropbox.com/sh/awup039cmngaqsb/AACutnJHvHOhDWvUNypbvpf5a?dl=0">here</a>.</p>
 <hr />
-<div id="courses" class="section level1">
-<h1>Courses</h1>
-<hr />
-<div
-id="api-201-quantitative-analysis-empirical-methods-harvard-kennedy-school"
-class="section level2">
-<h2><a
-href="https://www.hks.harvard.edu/courses/quantitative-analysis-and-empirical-methods">API-201:
-Quantitative Analysis &amp; Empirical Methods (Harvard Kennedy
-School)</a></h2>
-<p>Fall 2021. Introductory statistics and data science course for HKS
-Masters of Public Policy students with a focus on real-life public
-policy applications. I developed an introductory guide to R and
-Rmarkdown available <a
-href="https://www.dropbox.com/sh/awup039cmngaqsb/AACutnJHvHOhDWvUNypbvpf5a?dl=0">here</a>.</p>
+<div id="quantitative-teaching" class="section level1">
+<h1>Quantitative Teaching</h1>
+<p><a href="https://www.hks.harvard.edu/courses/quantitative-analysis-and-empirical-methods">API-201: Quantitative Analysis &amp; Empirical Methods (Harvard Kennedy School)</a></p>
+<p>Fall 2021. Introductory statistics and data science course for HKS Masters of Public Policy students with a focus on real-life public policy applications. I developed an introductory guide to R and Rmarkdown available <a href="https://www.dropbox.com/sh/awup039cmngaqsb/AACutnJHvHOhDWvUNypbvpf5a?dl=0">here</a>.</p>
+<p><a href="https://imai.fas.harvard.edu/teaching/index.html">GOV-2002/STAT-186: Quantitative Social Science Methods II/Methods of Causal Inference (Department of Government/Department of Statistics)</a></p>
+<p>Fall 2020. Graduate-level course on theory and applications of causal inference for the social sciences.</p>
 <hr />
 </div>
-<div
-id="gov-2002stat-186-quantitative-social-science-methods-iimethods-of-causal-inference-department-of-governmentdepartment-of-statistics"
-class="section level2">
-<h2><a
-href="https://imai.fas.harvard.edu/teaching/index.html">GOV-2002/STAT-186:
-Quantitative Social Science Methods II/Methods of Causal Inference
-(Department of Government/Department of Statistics)</a></h2>
-<p>Fall 2020. Graduate-level course on theory and applications of causal
-inference for the social sciences.</p>
-<hr />
-</div>
-<div id="gov-1190-politics-of-europe-department-of-government"
-class="section level2">
-<h2><a
-href="https://scholar.harvard.edu/dziblatt/pages/collaborative-workconferences">GOV-1190:
-Politics of Europe (Department of Government)</a></h2>
-<p>Spring 2018. Undergraduate course on political history of Europe from
-medieval era to the present, including the rise of the nation-state,
-revolutionary movements, democratization, and 21st-century populist
-political movements.</p>
-<hr />
-</div>
-<div
-id="gov-1780-international-political-economy-department-of-government"
-class="section level2">
-<h2><a
-href="https://scholar.harvard.edu/jfrieden/classes/gov-1780-international-political-economy">GOV-1780:
-International Political Economy (Department of Government)</a></h2>
-<p>Fall 2017. Undergraduate course on IPE covering theories of political
-institutions, interest groups, trade, monetary economics, and more.</p>
-</div>
+<div id="qualitative-teaching" class="section level1">
+<h1>Qualitative Teaching</h1>
+<p><a href="https://scholar.harvard.edu/dziblatt/pages/collaborative-workconferences">GOV-1190: Politics of Europe (Department of Government)</a></p>
+<p>Spring 2018. Undergraduate course on political history of Europe from medieval era to the present, including the rise of the nation-state, revolutionary movements, democratization, and 21st-century populist political movements.</p>
+<p><a href="https://scholar.harvard.edu/jfrieden/classes/gov-1780-international-political-economy">GOV-1780: International Political Economy (Department of Government)</a></p>
+<p>Fall 2017. Undergraduate course on IPE covering theories of political institutions, interest groups, trade, monetary economics, and more.</p>
 </div>
 
 
 
-</div>
-</div>
 
 </div>
 
@@ -438,35 +323,6 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
-<script>
-$(document).ready(function ()  {
-
-    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
-    $('.unlisted.unnumbered').addClass('toc-ignore')
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2,h3",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
