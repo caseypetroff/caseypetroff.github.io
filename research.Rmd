@@ -1,4 +1,5 @@
 ---
+title: "Research"
 output:
   html_document:
     toc: false
@@ -14,7 +15,6 @@ output:
 *with Michael-David Mangini*
 
 We argue that the gunpowder revolution in medieval Europe encouraged the amalgamation of smaller polities into larger centralized states. The shock to military technology made existing fortifications obsolete and dramatically raised the cost of defensive investments. Small polities lacked the fiscal capacity to make these investments, so they had either to ally or merge with others. Alliances created prospects of free-riding by interior cities on border cities. In contrast, unitary centralized states benefited from geographic and fiscal economies of scale, facilitating defensive investments at the border that protected the interior while limiting free-riding and resource misallocation. Using a new dataset on fortifications in over 6,000 European cities, we find that states made defensive investments in areas of territorial contestation, closer to borders, and farther from raw building materials. These findings are consistent with the theory that large centralized states arose in part as a consequence of changes in military technology.
-
 
 **Expert-Policymaker Interactions: Evidence from the History of Public Health**
 
