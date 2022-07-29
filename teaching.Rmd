@@ -20,7 +20,7 @@ Fall 2021. Introductory statistics and data science course for HKS Masters of Pu
 
 [GOV-2002/STAT-186: Quantitative Social Science Methods II/Methods of Causal Inference (Department of Government/Department of Statistics)](https://imai.fas.harvard.edu/teaching/index.html)
 
-Fall 2020. Graduate-level course on theory and applications of causal inference for the social sciences.  
+Fall 2020. PhD-level course on theory and applications of causal inference for the social sciences.  
 
 ---
 
