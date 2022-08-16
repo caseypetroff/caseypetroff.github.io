@@ -5,6 +5,15 @@ output:
     fig_width: 1
 ---
 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE )
+
+#Create myheader.html
+fileConn <- file("myheader.html")
+writeLines('<meta name="google-site-verification" content="Z2am8BNKSMZAG1lcN-CWIHfK2Qr0k9w9lIbAZCnwwKQ" />', fileConn)
+close(fileConn)
+```
+
 ----
 
 :::: {style="display: flex;"}
