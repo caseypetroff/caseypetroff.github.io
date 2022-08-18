@@ -21,7 +21,7 @@ close(fileConn)
 
 :::
 
-I am a Ph.D. candidate in the Political Economy and Government Program at Harvard University.  with a focus on political economy and economic history. My research is supported by a Stone PhD Scholarship in Inequality and Wealth Concentration. 
+I am a Ph.D. candidate in the Political Economy and Government Program at Harvard University with a focus on political economy and economic history. My research is supported by a Stone PhD Scholarship in Inequality and Wealth Concentration. 
 
 Prior to my doctoral studies, I earned a MSc in Economic History from the London School of Economics and Political Science, and a BS in Mathematics and Economics from American University in Washington, DC.
 
