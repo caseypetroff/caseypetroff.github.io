@@ -3,13 +3,14 @@ title: "Casey Petroff"
 output:
   html_document:
     fig_width: 1
+    includes:
+      in_header: google.html
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE )
 
-#Create myheader.html
-fileConn <- file("myheader.html")
+fileConn <- file("google.html")
 writeLines('<meta name="google-site-verification" content="Z2am8BNKSMZAG1lcN-CWIHfK2Qr0k9w9lIbAZCnwwKQ" />', fileConn)
 close(fileConn)
 ```
