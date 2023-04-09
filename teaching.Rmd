@@ -26,6 +26,10 @@ Fall 2020. PhD-level course on theory and applications of causal inference for t
 
 # Qualitative Teaching
 
+GOV-97: Why Trust Science? Experts, Policymakers and the Public
+
+Spring 2023. Undergraduate course for government concentrators -- an introduction to research in political science through the lens of social science scholarship on the incentives and goals of scientific experts. 
+
 [GOV-1190: Politics of Europe (Department of Government)](https://scholar.harvard.edu/dziblatt/pages/collaborative-workconferences)
 
 Spring 2018. Undergraduate course on political history of Europe from medieval era to the present, including the rise of the nation-state, revolutionary movements, democratization, and 21st-century populist political movements.
