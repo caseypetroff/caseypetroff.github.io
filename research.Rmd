@@ -17,7 +17,7 @@ output:
 
 *with Michael-David Mangini*
 
-<a href="https://caseypetroff.github.io/papers/walls-draft.pdf" class="button1">DRAFT</a>
+<a href="https://www.dropbox.com/scl/fi/hs2quow5zqmx183q3b3ln/walls-draft.pdf?rlkey=ivv8kxkep4sk1iur7w73zq2pb&dl=0" class="button1">DRAFT</a>
 
 <img src="images/stoob_example.png" title="A close-up of Heinz Stoob's map of European defensive fortifications, which we digitized for this project."/>
 
