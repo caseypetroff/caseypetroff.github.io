@@ -13,7 +13,7 @@
 
 <title>Teaching</title>
 
-<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.23/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
@@ -141,11 +141,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -174,8 +178,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -183,16 +187,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -271,25 +268,43 @@ $(document).ready(function () {
 </div>
 
 
-<p>I have served as a teaching fellow/assistant for both quantitative and qualitative courses for undergraduate and graduate students at Harvard University.</p>
-<p>I wrote a guide to R and RMarkdown intended to be accessible to people with limited (or no) background in programming. This guide is available <a href="https://www.dropbox.com/sh/awup039cmngaqsb/AACutnJHvHOhDWvUNypbvpf5a?dl=0">here</a>.</p>
+<p>I wrote a guide to R and RMarkdown intended to be accessible to
+people with limited (or no) background in programming. This guide is
+available <a
+href="https://www.dropbox.com/sh/awup039cmngaqsb/AACutnJHvHOhDWvUNypbvpf5a?dl=0">here</a>.</p>
 <hr />
-<div id="quantitative-teaching" class="section level1">
-<h1>Quantitative Teaching</h1>
-<p><a href="https://www.hks.harvard.edu/courses/quantitative-analysis-and-empirical-methods">API-201: Quantitative Analysis &amp; Empirical Methods (Harvard Kennedy School)</a></p>
-<p>Fall 2021. Introductory statistics and data science course for HKS Masters of Public Policy students with a focus on real-life public policy applications. I developed an introductory guide to R and Rmarkdown available <a href="https://www.dropbox.com/sh/awup039cmngaqsb/AACutnJHvHOhDWvUNypbvpf5a?dl=0">here</a>.</p>
-<p><a href="https://imai.fas.harvard.edu/teaching/index.html">GOV-2002/STAT-186: Quantitative Social Science Methods II/Methods of Causal Inference (Department of Government/Department of Statistics)</a></p>
-<p>Fall 2020. PhD-level course on theory and applications of causal inference for the social sciences.</p>
-<hr />
+<div id="graduate" class="section level1">
+<h1>Graduate</h1>
+<p><strong>PSCI 576: Graduate Research Seminar</strong></p>
+<p>Designed as a forum for upper-level doctoral students who have
+completed formal coursework to present ongoing research. Students
+regularly present research either stemming from their dissertations or
+from ancillary projects.</p>
 </div>
-<div id="qualitative-teaching" class="section level1">
-<h1>Qualitative Teaching</h1>
-<p>GOV-97: Why Trust Science? Experts, Policymakers and the Public</p>
-<p>Spring 2023. Undergraduate course for government concentrators – an introduction to research in political science through the lens of social science scholarship on the incentives and goals of scientific experts.</p>
-<p><a href="https://scholar.harvard.edu/dziblatt/pages/collaborative-workconferences">GOV-1190: Politics of Europe (Department of Government)</a></p>
-<p>Spring 2018. Undergraduate course on political history of Europe from medieval era to the present, including the rise of the nation-state, revolutionary movements, democratization, and 21st-century populist political movements.</p>
-<p><a href="https://scholar.harvard.edu/jfrieden/classes/gov-1780-international-political-economy">GOV-1780: International Political Economy (Department of Government)</a></p>
-<p>Fall 2017. Undergraduate course on IPE covering theories of political institutions, interest groups, trade, monetary economics, and more.</p>
+<div id="undergraduate" class="section level1">
+<h1>Undergraduate</h1>
+<p><strong>INTR/PSCI 245: The Politics of Science and
+Expertise</strong></p>
+<p>The COVID-19 pandemic has highlighted the importance of scientific
+expertise in crafting policy, and policymakers depend on expert advice
+in many other arenas, including climate policy, regulation, and economic
+policy. However, recent polling demonstrates a deterioration and
+polarization of public trust in scientific experts. This course examines
+the politics of science and expertise. It covers theories and evidence
+about topics such as the motivations of experts, the roles of scientific
+communities, interactions between experts and policymakers, and public
+views of experts’ credibility. Students will engage with both relevant
+social science research and with case studies of policy-relevant
+scientific work to draw connections to the theories considered in
+class.</p>
+<p><strong>INTR/PSCI 389: Senior Honors Seminar</strong></p>
+<p>Through reading and critiquing political science research in American
+politics, comparative politics, and international relations, students
+learn how to select a research question, formulate testable hypotheses,
+find and evaluate relevant literature, locate or collect data that
+addresses their research question, analyze the data, and write a
+research report. Instructor permission required.</p>
+<hr />
 </div>
 
 
