@@ -10,13 +10,15 @@ I wrote a guide to R and RMarkdown intended to be accessible to people with limi
 
 ---
 
-# Graduate
+### Graduate
 
 **PSCI 576: Graduate Research Seminar**
 
 Designed as a forum for upper-level doctoral students who have completed formal coursework to present ongoing research. Students regularly present research either stemming from their dissertations or from ancillary projects.
 
-# Undergraduate
+<br>
+
+### Undergraduate
 
 **INTR/PSCI 245: The Politics of Science and Expertise**
 
@@ -24,6 +26,6 @@ The COVID-19 pandemic has highlighted the importance of scientific expertise in 
 
 **INTR/PSCI 389: Senior Honors Seminar**
 
-Through reading and critiquing political science research in American politics, comparative politics, and international relations, students learn how to select a research question, formulate testable hypotheses, find and evaluate relevant literature, locate or collect data that addresses their research question, analyze the data, and write a research report. Instructor permission required.
+Through reading and critiquing political science research in American politics, comparative politics, and international relations, students learn how to select a research question, formulate testable hypotheses, find and evaluate relevant literature, locate or collect data that addresses their research question, analyze the data, and write a research report. 
 
 ---
