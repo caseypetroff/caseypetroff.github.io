@@ -1,3 +1,5 @@
+setwd("~/Documents/GitHub/caseypetroff.github.io/")
+
 library(rmarkdown)
 
 rmarkdown::render_site(
