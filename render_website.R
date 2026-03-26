@@ -1,4 +1,4 @@
-setwd("/Users/caseypetroff/Documents/GitHub/caseypetroff.github.io/")
+setwd("~/Documents/GitHub/caseypetroff.github.io/")
 
 library(rmarkdown)
 

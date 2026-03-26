@@ -13,11 +13,9 @@ output:
 
 ---
 
-#### What Counts as a State? Measuring State Development and Fragmentation in Europe
+What Counts as a State? Measuring State Development and Fragmentation in Europe (with Anna Grzymala-Busse)
 
-*with Anna Grzymala-Busse*
-
-<a href="https://www.dropbox.com/scl/fi/kw55k82ipq834jy3pjrj2/final_draft_states_sept_2025.pdf?rlkey=c0f8hvf36lspd6qpo3e9j1zx2&dl=0">DRAFT</a>
+<a href="https://www.dropbox.com/scl/fi/4l5swlpgqwu6r2v8b9q28/draft_states_jan_2025.pdf?rlkey=s1cvk50l2n13dl406t69jzbn7&dl=0">DRAFT</a>
 
 <details>
   <summary><strong>Abstract</strong></summary>
@@ -28,9 +26,7 @@ A broad scholarly consensus supports the notion of European state development as
 
 <br>
 
-#### Conflict Technology as a Catalyst of State Formation
-
-*with Michael-David Mangini*
+Conflict Technology as a Catalyst of State Formation (with Michael-David Mangini)
 
 <a href="https://www.dropbox.com/scl/fi/hs2quow5zqmx183q3b3ln/walls-draft.pdf?rlkey=ivv8kxkep4sk1iur7w73zq2pb&dl=0" class="button1">DRAFT</a>
 
@@ -43,9 +39,9 @@ We argue that the gunpowder revolution in medieval Europe encouraged the amalgam
 
 <br>
 
-#### The Incentives of Scientific Experts: Evidence from the History of Public Health
+The Incentives of Scientific Experts: Evidence from the History of Public Health (conditionally accepted at Quarterly Journal of Political Science)
 
-<a href="https://www.dropbox.com/scl/fi/0zgvpvke03nirgt0wfdrf/website_cholera_summer_2025.pdf?rlkey=3jl6zz2lu5rect7bqpjy0ikg0&dl=0" class="button1">DRAFT</a>
+<a href="https://www.dropbox.com/scl/fi/og16ig7xyu5ur42efg24k/website_cholera_fall_2025.pdf?rlkey=a5pjump694f2fiy0vn0s2qvjr&dl=0" class="button1">DRAFT</a>
 
 <details>
   <summary><strong>Abstract</strong></summary>
@@ -56,9 +52,7 @@ I examine the dual roles of experts – on one hand, as scholars responsible to 
 
 <br>
 
-#### The Origins of Women’s Political Capital in the Separate Sphere
-
-*Conditionally accepted at Comparative Political Studies*
+The Origins of Women’s Political Capital in the Separate Sphere (conditionally accepted at Comparative Political Studies)
 
 <a href="https://www.dropbox.com/scl/fi/x3l7bqb78nf8ltkvqz3ok/cholera_july_2025.pdf?rlkey=4r2sszwamqbelqkcoup43sdrm&dl=0" class="button1">DRAFT</a>
 
@@ -77,16 +71,12 @@ I use novel data on women's volunteer organizations during the American Civil Wa
 
 ---
 
-#### Export Bans and Volatility Expectations in Grain Markets
-
-*with Michael K. Adjemian and and Michel A. Robe*
-
-<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4117628" class="button1">DRAFT</a>
+Adjemian, Michael K., Michel Robe, and Casey Petroff. (April 2026) <a href="https://www.sciencedirect.com/science/article/pii/S0261560626000379" class="button1">"Export Bans and Volatility Expectations in Grain Markets." </a> *Journal of International Money and Finance* 164:103552.
 
 <details>
   <summary><strong>Abstract</strong></summary>
   <p>
-We show the importance of accounting for political risk to understand forward-looking price volatility in agricultural markets. We propose a theoretical model that shows uncertainty about the future world price of staple foods is positively related to the likelihood (and, counterintuitively, is further boosted by the actual imposition) of export bans in top producer countries. To test our model's predictions, we use option-implied volatilities (IVols) as a proxy for commodity market uncertainty. We construct a novel, daily dataset of major restrictions on grain and oilseed exports that were announced, adopted, or repealed in 2002-2019. We show that wheat and corn IVols are significantly higher on the day and the week when a ban is first imposed and also during the whole period when the ban is in effect. The effects of export bans are statistically and economically significant. The results hold even when we control for global macro-economic uncertainty and risk aversion (jointly proxied by the equity VIX) and for cash market tightness (including the state of grain inventories) prior to the ban.
+Accounting for political risk helps to explain commodity price dynamics. Our theory ties commodity price uncertainty both to the likelihood of future export restrictions (i.e., to a dimension of political uncertainty) and to the actual banning of exports (i.e., to the realization and not just the fear of a ban). The channel is the lesser diversification of world supply risk following the imposition of an export ban by a large producer (or export restrictions by numerous small countries). The evidence is consistent with the theory. To test our theoretical model’s insights, we carry out the first high-frequency empirical analysis of bans’ impact on world price dynamics. We construct a novel daily dataset of major restrictions on agricultural exports announced, adopted, or repealed in 2002–2019. We use commodity option-implied volatilities (IVols) as a proxy for price uncertainty. Our empirical framework controls for known drivers of commodity market uncertainty, including global macroeconomic uncertainty and risk aversion (jointly captured by the VIX) and pre-ban spot market tightness (accounting for the state of grain inventories). We document that wheat and corn IVols are higher on the day and week when a ban is first imposed and during the period when it remains in effect. The increase is statistically and economically significant.
   </p>
 </details>
 
